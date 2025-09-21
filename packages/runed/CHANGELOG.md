@@ -1,5 +1,21 @@
 # runed
 
+## 0.32.0
+
+### Minor Changes
+
+- New Utility: `useSearchParams` ([#266](https://github.com/svecosystem/runed/pull/266))
+
+- feat(StateHistory): add `clear` method to reset the stack
+  ([#293](https://github.com/svecosystem/runed/pull/293))
+
+### Patch Changes
+
+- fix: use a `$derived` in `Previous` ([#314](https://github.com/svecosystem/runed/pull/314))
+
+- fix: type of `event.currentTarget` for `useEventListener`
+  ([#311](https://github.com/svecosystem/runed/pull/311))
+
 ## 0.31.1
 
 ### Patch Changes
